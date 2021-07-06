@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+/* Reset 시작 */
+* {
+	color: #000;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+a 				      {  text-decoration: none;  }
+a:link 			     {  color: #222;  }
+a:visited 			{  color: #222;  }
+a:hover 			{  color: #222;  }
+a:active 		  	 {  color: #222;  }
+img 				  {  vertical-align: middle;  }
+ul 						{  list-style: none; }
+/* Reset 끝 */
+
+/* header#header 시작 */
+header#header {
+	width: 1000px;
+	height: 150px;
+	margin: 0 auto;
+}
+	/* div#header_top 시작 */
+div#header_top {
+	height: 95px;
+	display: flex;
+}
+		/* div#header_top_lnb 시작 */
+div#header_top_lnb {
+	width: 390px;
+}
+ul#mainMenu {
+	margin-top: 30px;
+	position: relative;
+}
+li#mainLi {
+	float: left;
+	padding-bottom: 8px;
+}
+li#mianLi:not(:nth-child(2)) {
+	cursor: pointer;
+}
+li#mainLi a.selected {
+	color: #f80;
+}
+li#mainLi:nth-child(2) {
+	font-size: 12px;
+	position: relative;
+	top: 1px;
+}
+li#mainLi a {
+	height: 30px;
+	display: inline-block;
+}
+li#mainLi:first-child a {
+	padding-right: 19px;
+}
+li#mainLi:last-child a {
+	padding-left: 19px;
+}
+ul.subMenu {
+	font-size: 12px;
+	border: 1px solid #ddd;
+	padding: 0 12px 0 12px;
+	position: absolute;
+	top: 30px;
+	left: -10px;
+	z-index: 100;
+	background-color: #fff;
+	display: none;
+}
+.subLi {
+	padding-bottom: 13px;
+	cursor: pointer;
+}
+.subLi:first-child {
+	padding-top: 11px;
+}
+.subLi:hover {
+	color: #f80;
+}
+		/* div#header_top_lnb 끝 */
+
+		/* div#headerLogo 시작 */
+#header_top>div#heaaderLogo {
+	width: 210px;
+	height: 95px;
+	text-align: center;
+	line-height: 95px;
+}
+		/* div#headerLogo 끝 */
+
+		/* div#headerLoginArea 시작 */
+div#headerLoginArea {
+	flex: 1;
+	padding-left: 50px;
+}
+div#headerLoginArea ul {
+	margin-top: 35px;
+}
+div#headerLoginArea ul li {
+	float: left;
+}
+div#headerLoginArea ul li:first-child {
+	width: 180px;
+	height: 30px;
+	margin-right: 10px;
+	position: relative;
+}
+div#headerLoginArea ul li:not(:first-child) {
+	width: 40px;
+	height: 30px;
+	text-align: center;
+	line-height: 20px;
+	position: relative;
+	top: 4px;
+}
+div#headerLoginArea input {
+	width: 180px;
+	height: 30px;
+	border: none;
+	border-bottom: 1px solid #000;
+	padding: 5px;
+	outline: none;
+}
+::placeholder {
+	color: #888;
+}
+div#headerLoginArea img {
+	position: absolute;
+	right: 0;
+	top: 2px;
+}
+		/* div#headerLoginArea 끝 */
+
+	/* div#header_top 끝 */
+
+	/* nav#header_gnb 시작 */
+nav#header_gnb ul {
+	margin-top: 20px;
+}
+nav#header_gnb li {
+	font-size: 14px;
+	float: left;
+	padding-right: 15px;
+	cursor: pointer;
+}
+nav#header_gnb li:hover{
+	color: #ff420f;
+}
+nav#header_gnb li:not(:first-child) {
+	position: relative;
+	top: 2px;
+}
+	/* nav#header_gnb 끝 */
+
+/* header#header 끝 */
+
+/* footer#footer 시작 */
+footer#footer {
+	height: 300px;
+	padding: 50px 50px 50px 110px;
+}
+#footer_top {
+	display: flex;
+}
+#footer_top>div{
+	font-size: 11px;
+	flex:1;
+	height: 170px;
+	border: none;
+	padding-top: 40px;
+}
+#footer_top>div:first-child {
+	border-right: 1px solid #ddd;
+	padding-right: 20px;
+}
+#footer_top>div:first-child ul li {
+	margin-bottom: 8px;
+}
+#footer_top>div:first-child ul li:first-child {
+	font-weight: bold;
+}
+#footer_top>div:first-child ul li span {
+	color: #ccc;
+	margin-right: 2px;
+}
+#footer_top>div:first-child ul li span.selected {
+	font-weight: bold;
+	color: #000;
+}
+#footer_top>div:first-child ul li:first-child {
+	margin-bottom: 20px;
+}
+#footer_top>div:first-child ul li:last-child {
+	margin-top: 20px;
+}
+#footer_top>div:nth-child(2) {
+	font-size: 12px;
+	font-weight: bold;
+	padding: 15px 0px 10px 30px;
+	border-right: 1px solid #ddd;
+}
+#footer_top>div:nth-child(2) li {
+	margin-bottom: 13px;
+}
+#footer_top>div:nth-child(2) li span:first-child {
+	width: 150px;
+	display: inline-block;
+}
+#footer_top>div:last-child {
+	padding-left: 30px;
+}
+#footer_top>div:last-child li:first-child {
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 33px;
+}
+#footer_top>div:last-child li:nth-child(2) {
+	font-weight: bold;
+	margin-bottom: 6px;
+}
+div#footer_bottom {
+	text-align: center;
+	padding-top: 30px;
+}
+div#footer_bottom img {
+	margin-right: 10px;
+}
+/* footer#footer 끝 */
+
+
+
+
+
