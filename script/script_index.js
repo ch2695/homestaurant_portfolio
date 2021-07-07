@@ -18,14 +18,7 @@ $(function () {
 
 	}
 
-	/* 상단 고객센터 메뉴 */
-	$(function () {
-	$("#mainLi:first-child").mouseover(function(){
-		$(".subMenu").css({"display": "block"});
-	});
-	$("#mainLi:first-child").mouseout(function(){
-		$(".subMenu").css({"display": "none"});
-	});
 });
 
-});
+
+

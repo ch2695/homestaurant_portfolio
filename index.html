@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="css/style_Common.css">
 	<link rel="stylesheet" href="css/style_index.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="script/script_Common.js"></script>
 	<script src="script/script_index.js"></script>
 </head>
 
@@ -16,7 +17,7 @@
 			<div id="header_top">
 				<div id="header_top_lnb">
 					<ul id="mainMenu">
-						<li id="mainLi"><a href="#" class="selected">고객센터</a>
+						<li id="mainLi"><a href="#" class="selected">커뮤니티</a>
 							<ul class="subMenu">
 								<li class="subLi">공지사항</li>
 								<li class="subLi">EVENT</li>
@@ -31,7 +32,7 @@
 					</ul>
 				</div> <!-- div#header_top_lnb -->
 				<div id="heaaderLogo">
-					<img src="images/LogoImage.jpg" alt="로고이미지" width="210" height="40">
+					<a href="index.html"><img src="images/LogoImage.jpg" alt="로고이미지" width="210" height="40"></a>
 				</div> <!-- div#heaaderLogo -->
 				<div id="headerLoginArea">
 					<ul>
@@ -56,14 +57,24 @@
 				<ul>
 					<li>
 						<img src="images/allmenu.png" alt="전체메뉴아이콘" width="20">
+						<ul class="gnb_subMenu">
+							<li class="gnb_subLi"><a href="wholeMenu.html">전체상품</a></li>
+							<li class="gnb_subLi"><a href="#">신규회원특가</a></li>
+							<li class="gnb_subLi"><a href="#">특별기획전</a></li>
+							<li class="gnb_subLi"><a href="#">NEW 메뉴</a></li>
+							<li class="gnb_subLi"><a href="#">쉐프박스</a></li>
+							<li class="gnb_subLi"><a href="#">냉동간편식</a></li>
+							<li class="gnb_subLi"><a href="#">샐러드</a></li>
+							<li class="gnb_subLi"><a href="#">커뮤니티</a></li>
+						</ul>
 					</li>
-					<li>전체상품</li>
-					<li>신규회원특가</li>
-					<li>특별기획전</li>
-					<li>NEW메뉴</li>
-					<li>쉐프박스</li>
-					<li>냉동간편식</li>
-					<li>샐러드</li>
+					<li><a href="wholeMenu.html">전체상품</a></li>
+					<li><a href="#">신규회원특가</a></li>
+					<li><a href="#">특별기획전</a></li>
+					<li><a href="#">NEW메뉴</a></li>
+					<li><a href="#">쉐프박스</a></li>
+					<li><a href="#">냉동간편식</a></li>
+					<li><a href="#">샐러드</a></li>
 				</ul>
 			</nav> <!-- nav#header_gnb -->
 		</header> <!-- header#header -->
@@ -258,7 +269,7 @@
 				<img src="images/icon_insta.png" alt="" width="30">
 			</div>
 		</footer> <!-- footer#footer -->
-	</div>
+	</div>		<!-- div#wrap -->
 </body>
 
 </html>

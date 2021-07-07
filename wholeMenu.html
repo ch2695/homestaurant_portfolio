@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style_Common.css">
+	<link rel="stylesheet" href="css/style_wholeMenu.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="script/script_Common.js"></script>
+	<script src="script/script_wholeMenu.js"></script>
+</head>
+
+<body>
+	<div id="wrap">
+		<header id="header">
+			<div id="header_top">
+				<div id="header_top_lnb">
+					<ul id="mainMenu">
+						<li id="mainLi"><a href="#" class="selected">커뮤니티</a>
+							<ul class="subMenu">
+								<li class="subLi">공지사항</li>
+								<li class="subLi">EVENT</li>
+								<li class="subLi">상품문의</li>
+								<li class="subLi">상품후기</li>
+								<li class="subLi">자주묻는질문</li>
+								<li class="subLi">1:1문의하기</li>
+							</ul>
+						</li>
+						<li id="mainLi">|</li>
+						<li id="mainLi"><a href="#">즐겨찾기</a></li>
+					</ul>
+				</div> <!-- div#header_top_lnb -->
+				<div id="heaaderLogo">
+					<a href="index.html"><img src="images/LogoImage.jpg" alt="로고이미지" width="210" height="40"></a>
+				</div> <!-- div#heaaderLogo -->
+				<div id="headerLoginArea">
+					<ul>
+						<li>
+							<input type="text" placeholder="검색어를 입력하세요">
+							<img src="images/ico_search2.png" alt="헤더검색아이콘" width="22" height="22">
+						</li>
+						<li>
+							<img src="images/login.png" alt="" width="22" height="22">
+						</li>
+						<li>
+							<img src="images/icon_my.png" alt="" width="22" height="22">
+						</li>
+						<li>
+							<img src="images/icon_cart.png" alt="" width="22" height="22">
+						</li>
+					</ul>
+				</div> <!-- div#headeriLoginArea -->
+			</div> <!-- div#header_top -->
+
+			<nav id="header_gnb">
+				<ul>
+					<li>
+						<img src="images/allmenu.png" alt="전체메뉴아이콘" width="20">
+						<ul class="gnb_subMenu">
+							<li class="gnb_subLi"><a href="wholeMenu.html">전체상품</a></li>
+							<li class="gnb_subLi"><a href="#">신규회원특가</a></li>
+							<li class="gnb_subLi"><a href="#">특별기획전</a></li>
+							<li class="gnb_subLi"><a href="#">NEW 메뉴</a></li>
+							<li class="gnb_subLi"><a href="#">쉐프박스</a></li>
+							<li class="gnb_subLi"><a href="#">냉동간편식</a></li>
+							<li class="gnb_subLi"><a href="#">샐러드</a></li>
+							<li class="gnb_subLi"><a href="#">커뮤니티</a></li>
+						</ul>
+					</li>
+					<li><a href="wholeMenu.html">전체상품</a></li>
+					<li><a href="#">신규회원특가</a></li>
+					<li><a href="#">특별기획전</a></li>
+					<li><a href="#">NEW메뉴</a></li>
+					<li><a href="#">쉐프박스</a></li>
+					<li><a href="#">냉동간편식</a></li>
+					<li><a href="#">샐러드</a></li>
+				</ul>
+			</nav> <!-- nav#header_gnb -->
+		</header> <!-- header#header -->
+
+		<main id="main">
+			<div class="goods_list_tit">
+				<h3>전체 상품</h3>
+			</div>
+			<div class="goods_pick_list">
+				<div>
+					총 <span>24</span>개의 상품이 있습니다.
+				</div>
+				<div>
+					<select>
+						<option value="">추천순</option>
+						<option value="">판매인기순</option>
+						<option value="">낮은가격순</option>
+						<option value="">높은가격순</option>
+						<option value="">상품평순</option>
+						<option value="">등록일순</option>
+					</select>
+				</div>
+			</div>
+			<div id="goods_list_1" class="goods_list_content">
+				<div class="goodsArticle">
+					<img src="images/goods_item_1.jpg" alt="" width="230">
+					<span>퀸즈 시그니처 스테이크+봉골레 빠네+감바스 피칸테 총 6인분</span>
+					<div class="item_money_box">
+						<strong class="item_price">
+							<span>45,900</span><span class="won">원</span>
+						</strong>
+						<del>
+							52,700원
+						</del>
+					</div>
+				</div>
+				<div class="goodsArticle">
+					<img src="images/goods_item_2.jpg" alt="" width="230">
+					<span>애슐리 스테이크 로제 빠네 파스타 + 올라 파히타(총4인분)</span>
+					<div class="item_money_box">
+						<strong class="item_price">
+							<span>32,900</span><span class="won">원</span>
+						</strong>
+						<del>
+							35,800원
+						</del>
+					</div>
+				</div>
+				<div class="goodsArticle">
+					<img src="images/goods_item_3.jpg" alt="" width="230">
+					<span>애슐리 퀸즈 시그니처 스테이크+봉골레 크림 빠네 총 4인분</span>
+					<div class="item_money_box">
+						<strong class="item_price">
+							<span>32,900</span><span class="won">원</span>
+						</strong>
+						<del>
+							37,800원
+						</del>
+					</div>
+				</div>
+				<div class="goodsArticle">
+					<img src="images/goods_item_4.jpg" alt="" width="230">
+					<span>애슐리 퀸즈 시그니처 스테이크 + 쉬림프 비스크 로제 파스타 총 4인분</span>
+					<div class="item_money_box">
+						<strong class="item_price">
+							<span>31,900</span><span class="won">원</span>
+						</strong>
+						<del>
+							36,800원
+						</del>
+					</div>
+				</div>
+				<div class="goodsArticle">
+					<img src="images/goods_item_5.jpg" alt="" width="230">
+					<span>애슐리 사천 마라샹궈(2인) + 해물 누룽지탕(2인) 세트 총 4인분</span>
+					<div class="item_money_box">
+						<strong class="item_price">
+							<span>29,900</span><span class="won">원</span>
+						</strong>
+						<del>
+							30,800원
+						</del>
+					</div>
+				</div>
+				<div class="goodsArticle">
+					<img src="images/goods_item_6.jpg" alt="" width="230">
+					<span>애슐리 봉골레 크림 빠네+올라 파히타 총 4인분</span>
+					<div class="item_money_box">
+						<strong class="item_price">
+							<span>29,900</span><span class="won">원</span>
+						</strong>
+						<del>
+							35,800원
+						</del>
+					</div>
+				</div>
+				<div class="goodsArticle">
+					<img src="images/goods_item_7.jpg" alt="" width="230">
+					<span>애슐리 제주산 돈마호크 스테이크+콘치즈 바비큐 치킨(4인분)</span>
+					<div class="item_money_box">
+						<strong class="item_price">
+							<span>29,800</span><span class="won">원</span>
+						</strong>
+						<del>
+							33,800원
+						</del>
+					</div>
+				</div>
+				<div class="goodsArticle">
+					<img src="images/goods_item_8.jpg" alt="" width="230">
+					<span>애슐리 올라파히타+감바스피칸테 총 4인분</span>
+					<div class="item_money_box">
+						<strong class="item_price">
+							<span>27,900</span><span class="won">원</span>
+						</strong>
+						<del>
+							 31,600원
+						</del>
+					</div>
+				</div>
+				<div class="goodsArticle">
+					<img src="images/goods_item_9.jpg" alt="" width="230">
+					<span>애슐리 반반 초계국수+당면듬뿍 매콤 안동찜닭 (총4인분)</span>
+					<div class="item_money_box">
+						<strong class="item_price">
+							<span>45,900</span><span class="won">원</span>
+						</strong>
+						<del>
+							52,700원
+						</del>
+					</div>
+				</div>
+				<div class="goodsArticle">
+					<img src="images/goods_item_10.jpg" alt="" width="230">
+					<span>애슐리 콰트로 햄치즈 부대찌개 + 당면 듬뿍 매콤 안동찜닭 (총4인분)</span>
+					<div class="item_money_box">
+						<strong class="item_price">
+							<span>45,900</span><span class="won">원</span>
+						</strong>
+						<del>
+							52,700원
+						</del>
+					</div>
+				</div>
+				<div class="goodsArticle">
+					<img src="images/goods_item_11.jpg" alt="" width="230">
+					<span>애슐리 소불고기 버섯전골(2인) & 당면듬뿍 매콤안동찜닭(2인) 세트 총 4인분</span>
+					<div class="item_money_box">
+						<strong class="item_price">
+							<span>45,900</span><span class="won">원</span>
+						</strong>
+						<del>
+							52,700원
+						</del>
+					</div>
+				</div>
+				<div class="goodsArticle">
+					<img src="images/goods_item_12.jpg" alt="" width="230">
+					<span>애슐리 칠리 치킨 퀘사디아 2인분</span>
+					<div class="item_money_box">
+						<strong class="item_price">
+							<span>45,900</span><span class="won">원</span>
+						</strong>
+						<del>
+							52,700원
+						</del>
+					</div>
+				</div>
+			</div>
+			<div id="goods_list_2" class="goods_list_content">
+
+			</div>
+			<div class="pagination">
+				<ul>
+					<li class="selected">1</li>
+					<li>2</li>
+				</ul>
+			</div>
+		</main>
+
+		<footer id="footer">
+			<div id="footer_top">
+				<div>
+					<ul>
+						<li>COPYRIGHT ⓒ elandeats ALL RIGHTS RESERVED.</li>
+						<li>서울특별시 금천구 가산디지털1로 186, 213호</li>
+						<li>단체주문 문의 choi_yoohwan@eland.co.kr</li>
+						<li>
+							<span>회사소개</span>
+							<span>이용약관</span>
+							<span class="selected">개인정보처리방침</span>
+							<span>이용안내</span>
+							<span>광고/제휴 문의</span>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<ul>
+						<li>
+							<span>상호명</span>
+							<span>(주)이랜드이츠</span>
+						</li>
+						<li>
+							<span>대표자</span>
+							<span>김완식</span>
+						</li>
+						<li>
+							<span>사업자등록번호</span>
+							<span>514-86-01083</span>
+						</li>
+						<li>
+							<span>통신판매업신고번호</span>
+							<span>제2019-서울금천-1204</span>
+						</li>
+						<li>
+							<span>개인정보관리자</span>
+							<span>김완식</span>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<ul>
+						<li>
+							070-4012-4327
+						</li>
+						<li>AM 10:00 ~ PM 07:00</li>
+						<li>주말,공휴일 휴무</li>
+					</ul>
+				</div>
+			</div>
+			<div id="footer_bottom">
+				<img src="images/icon_facebook.png" alt="" width="30">
+				<img src="images/icon_insta.png" alt="" width="30">
+			</div>
+		</footer> <!-- footer#footer -->
+	</div> <!-- div#wrap -->
+</body>
+
+</html>
+
+
+
+

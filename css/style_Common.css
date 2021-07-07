@@ -43,7 +43,7 @@ li#mianLi:not(:nth-child(2)) {
 	cursor: pointer;
 }
 li#mainLi a.selected {
-	color: #f80;
+	color: #ff420f;
 }
 li#mainLi:nth-child(2) {
 	font-size: 12px;
@@ -79,7 +79,7 @@ ul.subMenu {
 	padding-top: 11px;
 }
 .subLi:hover {
-	color: #f80;
+	color: #ff420f;
 }
 		/* div#header_top_lnb 끝 */
 
@@ -141,18 +141,41 @@ div#headerLoginArea img {
 nav#header_gnb ul {
 	margin-top: 20px;
 }
-nav#header_gnb li {
+nav#header_gnb>ul>li {
 	font-size: 14px;
 	float: left;
 	padding-right: 15px;
 	cursor: pointer;
+	position: relative;
+	padding-bottom: 15px;
 }
-nav#header_gnb li:hover{
+nav#header_gnb>ul>li:first-child {
+	width: 25px;
+	margin-right: 10px;
+}
+nav#header_gnb li a:hover{
 	color: #ff420f;
 }
 nav#header_gnb li:not(:first-child) {
 	position: relative;
 	top: 2px;
+}
+ul.gnb_subMenu {
+	border-top: 1px solid #ccc;
+	position: absolute;
+	top: 15px;
+	left: 0;
+	z-index: 100;
+	background-color: #fff;
+	display: none;
+}
+ul.gnb_subMenu li.gnb_subLi {
+	font-size: 13px !important;
+	width: 350px;
+	padding: 14px 14px 14px 20px;
+}
+li.gnb_subLi:hover {
+	background-color: rgba(238, 238, 238, 0.48);
 }
 	/* nav#header_gnb 끝 */
 
