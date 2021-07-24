@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/style_Common.css">
+	<link rel="stylesheet" href="../css/style_event.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="../script/script_Common.js"></script>
+</head>
+
+<body>
+	<div id="wrap">
+		<header id="header">
+			<div id="header_top">
+				<div id="header_top_lnb">
+					<ul id="mainMenu">
+						<li id="mainLi"><a href="#" class="selected">커뮤니티</a>
+							<ul class="subMenu">
+								<li class="subLi"><a href="#">공지사항</a></li>
+								<li class="subLi"><a href="comunity/event.html">EVENT</a></li>
+								<li class="subLi"><a href="#">상품문의</a></li>
+								<li class="subLi"><a href="#">상품후기</a></li>
+								<li class="subLi"><a href="#">자주묻는질문</a></li>
+								<li class="subLi"><a href="#">1:1문의하기</a></li>
+							</ul>
+						</li>
+						<li id="mainLi">|</li>
+						<li id="mainLi"><a href="#">즐겨찾기</a></li>
+					</ul>
+				</div> <!-- div#header_top_lnb -->
+				<div id="heaaderLogo">
+					<a href="../index.html"><img src="../images/LogoImage.jpg" alt="로고이미지" width="210" height="40"></a>
+				</div> <!-- div#heaaderLogo -->
+				<div id="headerLoginArea">
+					<ul>
+						<li>
+							<input type="text" placeholder="검색어를 입력하세요">
+							<img src="../images/ico_search2.png" alt="헤더검색아이콘" width="22" height="22">
+						</li>
+						<li>
+							<img src="../images/login.png" alt="" width="22" height="22">
+						</li>
+						<li>
+							<img src="../images/icon_my.png" alt="" width="22" height="22">
+						</li>
+						<li>
+							<img src="../images/icon_cart.png" alt="" width="22" height="22">
+						</li>
+					</ul>
+				</div> <!-- div#headeriLoginArea -->
+			</div> <!-- div#header_top -->
+
+			<nav id="header_gnb">
+				<ul>
+					<li>
+						<img src="../images/allmenu.png" alt="전체메뉴아이콘" width="20">
+						<ul class="gnb_subMenu">
+							<li class="gnb_subLi"><a href="../wholeMenu.html">전체상품</a></li>
+							<li class="gnb_subLi"><a href="#">신규회원특가</a></li>
+							<li class="gnb_subLi"><a href="#">특별기획전</a></li>
+							<li class="gnb_subLi"><a href="#">NEW 메뉴</a></li>
+							<li class="gnb_subLi"><a href="#">쉐프박스</a></li>
+							<li class="gnb_subLi"><a href="#">냉동간편식</a></li>
+							<li class="gnb_subLi"><a href="#">샐러드</a></li>
+							<li class="gnb_subLi"><a href="#">커뮤니티</a></li>
+						</ul>
+					</li>
+					<li><a href="wholeMenu.html">전체상품</a></li>
+					<li><a href="#">신규회원특가</a></li>
+					<li><a href="#">특별기획전</a></li>
+					<li><a href="#">NEW메뉴</a></li>
+					<li><a href="#">쉐프박스</a></li>
+					<li><a href="#">냉동간편식</a></li>
+					<li><a href="#">샐러드</a></li>
+				</ul>
+			</nav> <!-- nav#header_gnb -->
+		</header> <!-- header#header -->
+
+		<main id="main">
+			<div id="contents">
+				<h4>이벤트</h4>
+				<table>
+					<tr>
+						<th>번호</th>
+						<th>제목</th>
+						<th>날짜</th>
+						<th>작성자</th>
+						<th>조회</th>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>홈스토랑 신규회원 가입 혜택안내 </td>
+						<td>2021.07.01</td>
+						<td>관리자</td>
+						<td>2052</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>우리집 식탁 자랑하기 이벤트</td>
+						<td>2020.05.29</td>
+						<td>이츠마켓 관리자</td>
+						<td>632</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>이츠마켓 X 이랜드재단 기부캠페인 (1) </td>
+						<td>2020.05.01</td>
+						<td>이츠마켓 관리자</td>
+						<td>823</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>후기 이벤트 당첨자 발표! (2)</td>
+						<td>2020.03.05</td>
+						<td>관리자</td>
+						<td>675</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>구매하고 후기만 남겨도, 애슐리 식사권이 와르르! (12)</td>
+						<td>2020.01.15</td>
+						<td>관리자</td>
+						<td>1343</td>
+					</tr>
+				</table>
+				<div class="pagination">
+					<ul>
+						<li>1</li>
+					</ul>
+				</div>
+				<div id="search">
+					<select name="" id="">
+						<option value="">제목</option>
+						<option value="">내용</option>
+						<option value="">작성자</option>
+					</select>
+					<input type="text">
+					<button type="button">검색</button>
+				</div>
+			</div>
+		</main>
+
+		<footer id="footer">
+			<div id="footer_top">
+				<div>
+					<ul>
+						<li>COPYRIGHT ⓒ elandeats ALL RIGHTS RESERVED.</li>
+						<li>서울특별시 금천구 가산디지털1로 186, 213호</li>
+						<li>단체주문 문의 choi_yoohwan@eland.co.kr</li>
+						<li>
+							<span>회사소개</span>
+							<span>이용약관</span>
+							<span class="selected">개인정보처리방침</span>
+							<span>이용안내</span>
+							<span>광고/제휴 문의</span>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<ul>
+						<li>
+							<span>상호명</span>
+							<span>(주)이랜드이츠</span>
+						</li>
+						<li>
+							<span>대표자</span>
+							<span>김완식</span>
+						</li>
+						<li>
+							<span>사업자등록번호</span>
+							<span>514-86-01083</span>
+						</li>
+						<li>
+							<span>통신판매업신고번호</span>
+							<span>제2019-서울금천-1204</span>
+						</li>
+						<li>
+							<span>개인정보관리자</span>
+							<span>김완식</span>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<ul>
+						<li>
+							070-4012-4327
+						</li>
+						<li>AM 10:00 ~ PM 07:00</li>
+						<li>주말,공휴일 휴무</li>
+					</ul>
+				</div>
+			</div>
+			<div id="footer_bottom">
+				<img src="images/icon_facebook.png" alt="" width="30">
+				<img src="images/icon_insta.png" alt="" width="30">
+			</div>
+		</footer> <!-- footer#footer -->
+	</div>
+</body>
+
+</html>

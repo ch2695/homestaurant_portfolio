@@ -72,13 +72,12 @@ ul.subMenu {
 	display: none;
 }
 .subLi {
-	padding-bottom: 13px;
 	cursor: pointer;
 }
 .subLi:first-child {
 	padding-top: 11px;
 }
-.subLi:hover {
+.subLi a:hover {
 	color: #ff420f;
 }
 		/* div#header_top_lnb 끝 */

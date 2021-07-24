@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+/* Reset 시작 */
+* {
+	color: #000;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+a 				      {  text-decoration: none;  }
+a:link 			     {  color: #222;  }
+a:visited 			{  color: #222;  }
+a:hover 			{  color: #222;  }
+a:active 		  	 {  color: #222;  }
+img 				  {  vertical-align: middle;  }
+ul 						{  list-style: none;  }
+/* Reset 끝 */
+
+/* main#main 시작 */
+main#main {
+	height: 550px;
+	background-color: rgba(238, 238, 238, 0.21);
+	padding-top: 60px;
+	border-bottom: 1px solid #000;
+}
+
+div#contents {
+	width: 80%;
+	height: 460px;
+	margin: 0 auto;
+}
+
+div#contents h4 {
+	padding-bottom: 15px;
+}
+
+div#contents table {
+	width: 100%;
+	height: 270px;
+	border-collapse: collapse;
+	border-bottom: 1px solid #ccc;
+}
+
+div#contents table tr:first-child {
+	border-top: 1px solid #aaa;
+	height: 50px;
+}
+div#contents table tr {
+	border-top: 1px solid #ddd;
+}
+div#contents table th {
+	font-size: 11px;
+}
+div#contents table td:not(:nth-child(2)){
+	width: 10%;
+}
+div#contents table td:nth-child(2) {
+	width: 60%;
+	text-align: left;
+}
+div#contents table td {
+	font-size: 11px;
+	text-align: center;
+}
+div#contents .pagination {
+	text-align: center;
+	padding: 20px 0 20px 0;
+	font-size: 13px;
+}
+div#contents .pagination li {
+	color: #ff420f;
+	position: relative;
+	left: 14px;
+}
+div#search {
+	text-align: center;
+}
+div#search select {
+	width: 80px;
+	font-size: 1px;
+	padding: 5px 0;
+	border: 1px solid #ccc;
+	outline: none;
+}
+div#search input {
+	width: 150px;
+	height: 25px;
+	font-size: 1px;
+	border: 1px solid #ccc;
+	padding-left: 6px;
+	outline: none;
+}
+div#search button {
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #ff420f;
+	padding: 4px 10px 4px 10px;
+	border: none;
+}
+/* main#main 끝 */
+
+
+
